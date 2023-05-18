@@ -1,0 +1,123 @@
+:root {
+    --white: #ffff;
+    --dark-purple: #24053e;
+    --green: #44ffa1;
+    --dark-gray: #584D62;
+    --light-gray: #fcf8ff;
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+   font-family: Manrope;
+   src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+   font-weight: regular;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+    font-weight: bold;
+ }
+
+body {
+    margin: 0;
+    background-color: var(--white);
+}
+
+h1 {
+    font-family: Fraunces, serif;
+    font-size: 80px;
+    line-height: 80px;
+    color: var(--white);
+}
+
+h2 {
+    font-family: Fraunces, serif;
+    font-size: 56px;
+    line-height: 64px;
+    color: var(--white);
+}
+
+h3 {
+    font-family: Fraunces, serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--dark-purple);
+}
+
+p {
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--dark-purple);
+}
+
+.header {
+    background-color: var(--dark-purple);}
+
+.features {
+    background-color: var(--light-gray);
+}
+
+.jumbotron {
+    background-color: var(--dark-purple);
+}
+
+.btn-primary {
+    background-color: var(--green);
+    color: var(--dark-purple);
+    cursor: pointer;
+    border: solid 2px var(--green);
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-bottom: solid 3px var(--green);
+    color: var(--white);
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-primary-hover {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    color: var(--green);
+    cursor: pointer;
+    border: solid 2px var(--green);
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-secondary-hover {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-bottom: solid 3px var(--green);
+    color: var(--green);
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
