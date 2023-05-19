@@ -14,7 +14,7 @@
 @font-face {
    font-family: Manrope;
    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
-   font-weight: regular;
+   font-weight: 400;
 }
 
 @font-face {
@@ -33,6 +33,9 @@ h1 {
     font-size: 80px;
     line-height: 80px;
     color: var(--white);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -40,6 +43,8 @@ h2 {
     font-size: 56px;
     line-height: 64px;
     color: var(--white);
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 h3 {
@@ -47,24 +52,104 @@ h3 {
     font-size: 32px;
     line-height: 40px;
     color: var(--dark-purple);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
     font-family: Manrope, sans-serif;
     font-size: 18px;
+    font-weight: 400;
     line-height: 32px;
-    color: var(--dark-purple);
+    color: var(--dark-gray);
+    margin-top: 28px;
+    margin-bottom: 0px;
 }
 
 .header {
-    background-color: var(--dark-purple);}
+    background-color: var(--light-gray);
+    height: 730px;
+}
+
+.header-container {
+    background-color: var(--dark-purple);
+    height: 730px;
+    border-radius: 0 0 50% 50% / 0 0 68px 68px;
+}
 
 .features {
     background-color: var(--light-gray);
+    padding-top: 255px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 171px;
+    border-radius: 0 0 50% 50% / 0 0 68px 68px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1114px;
+    gap: 26px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid;
+    height: 56px;
+    width: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.test {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: var(--white);
+    margin: 110px;
+    margin-bottom: 0;
+}
+
+#profile-photo {
+    position: absolute;
+    max-height: 477px;
+    min-width: 477px;
+}
+
+.test-combined {
+    width: 1112px;
+    height: 648px;;
+    position: relative;
+}
+
+.footer {
+    background-color: var(--white);
 }
 
 .jumbotron {
+    position: absolute;
+    right: 0px;
+    bottom: 62px;
+    max-width: 602px;
+    max-height: 285px;
     background-color: var(--dark-purple);
+    border: 65px;
+    padding: 64px;
+}
+
+.white-text {
+    color: var(--white);
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 .btn-primary {
@@ -75,6 +160,7 @@ p {
     font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    padding: 22px 34px 22px 34px;
 }
 
 .btn-secondary {
@@ -104,6 +190,7 @@ p {
     font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    padding: 22px 34px 22px 34px;
 }
 
 .btn-secondary-hover {
@@ -120,4 +207,59 @@ p {
     font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 58px;
+    margin-bottom: 53px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 635px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.underline {
+    border-bottom: solid 3px var(--green);
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+
+#mobile {
+    max-width: 747px;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 116px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+    padding: 0px;
+
+}
+
+.social-media {
+    width: 116px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 58px
 }

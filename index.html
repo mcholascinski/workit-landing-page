@@ -10,32 +10,36 @@
 </head>
 <body>
   <section class="header">
-    <div class="navbar">
-      <img src="./assets/images/logo-light.svg" alt="Logo light">
-      <button class="btn-secondary-hover">Apply for access</button>
-    </div>
-    <div class="hero">
-      <h1>Data tailored to your needs.</h1>
-      <button class="btn-primary-hover">Learn more</button>
-      <img src="./assets/images/image-hero.webp" alt="Mobile Phone">
+    <div class="header-container">
+      <div class="navbar">
+        <img src="./assets/images/logo-light.svg" alt="Logo light">
+        <button class="btn-secondary">Apply for access</button>
+      </div>
+      <div class="hero">
+        <h1>Data <span class="underline">tailored</span> to your needs.</h1>
+        <button class="btn-primary">Learn more</button>
+      </div>
+      <div class="phone">
+        <img src="./assets/images/image-hero.webp" alt="Mobile Phone" id="mobile">
+      </div>
     </div>
   </section>
   <section class="features">
-    <ul>
+    <ul class="grid">
       <li>
-        <h3>1</h3>
+        <h3 class="number">1</h3>
         <h3>Actionable insights</h3>
         <p>Optimize your products, improve customer satisfaction and stay ahead of the competition 
           with our product data analytics.</p>
       </li>
       <li>
-        <h3>2</h3>
+        <h3 class="number">2</h3>
         <h3>Data-driven decisions</h3>
         <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help 
           you unlock insights hidden in your product data.</p>
       </li>
       <li>
-        <h3>3</h3>
+        <h3 class="number">3</h3>
         <h3>Always affordable</h3>
         <p>Always affordable pricing that scales with your business. Get top-quality product data 
           analytics services without hidden costs or unexpected fees.</p>
@@ -43,13 +47,15 @@
     </ul>
   </section>
   <section class="test">
-    <img src="./assets/images/image-founder.webp" alt="Louis Graham">
-    <div class="jumbotron">
-      <h2>Be the first to test</h2>
-      <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
-        beta tester for our app and kickstart your company. Apply for access below and I’ll be 
-        in touch to schedule a call.</p>
-      <button class="btn-primary-hover">Apply for access</button>
+    <div class="test-combined">
+      <img src="./assets/images/image-founder.webp" alt="Louis Graham" id="profile-photo">
+      <div class="jumbotron">
+        <h2>Be the first to test</h2>
+        <p class="white-text">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
+          beta tester for our app and kickstart your company. Apply for access below and I’ll be 
+          in touch to schedule a call.</p>
+        <button class="btn-primary">Apply for access</button>
+      </div>
     </div>
   </section>
   <section class="footer">
